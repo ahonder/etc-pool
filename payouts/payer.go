@@ -12,9 +12,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/yuriy0803/open-etc-pool-friends/rpc"
-	"github.com/yuriy0803/open-etc-pool-friends/storage"
-	"github.com/yuriy0803/open-etc-pool-friends/util"
+	"github.com/ahonder/etc-pool/rpc"
+	"github.com/ahonder/etc-pool/storage"
+	"github.com/ahonder/etc-pool/util"
 )
 
 const txCheckInterval = 5 * time.Second
