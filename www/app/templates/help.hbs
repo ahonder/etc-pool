@@ -1,7 +1,7 @@
 <div class="container">
 
   <div class="page-header">
-    <h1>How To Mine</h1>
+    <h1>Kazmaya Nasıl Başlarım</h1>
   </div>
 
   <div class="col-md-12" style="border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px;">
@@ -9,34 +9,34 @@
       <div class="page-header">
         <h3>lolMiner</h3>
       </div>
-      <p class="lead">In order to mine etchash you need   
+      <p class="lead">ETC Kazmak için gereken;   
         <a href="https://github.com/Lolliedieb/lolMiner-releases/releases" rel="nofollow" target="_blank">lolMiner</a> v1.12+
       </p>
       <p><code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user [YOUR_ETC_ADDRESS] -c ETC {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code></p>
       <dl class="dl-horizontal">
         <dt>YOUR_ETC_ADDRESS</dt>
-        <dd>This is your address for payouts, generate one with core-geth, or mine directly to exchange like
-          <a href="http://bittrex.com" rel="nofollow" target="_blank">Bittrex</a>.<br/>
-          <strong>Example:</strong> <code>0xd92fa5a9732a0aec36dc8d5a6a1305dc2d3e09e6</code>.
+        <dd>Bu sizin ödemenizi alacağınız cüzdan adresinizdir, herhangi bir mobil yada borsa cüzdanı kullanabilirsiniz
+          <a href="http://binance.com" rel="nofollow" target="_blank">Binance</a>.<br/>
+          <strong>Örnek:</strong> <code>0x841Dc834eC4c8925b37d4eFaDCCeFca25582BD8a</code>.
         </dd>
       </dl>
       <p>
-        <strong>Full example:</strong>
-        <code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user 0xd92fa5a9732a0aec36dc8d5a6a1305dc2d3e09e6 -c ETC {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code>.<br/>
+        <strong>Tam Örnek:</strong>
+        <code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user 0x841Dc834eC4c8925b37d4eFaDCCeFca25582BD8a -c ETC {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code>.<br/>
       </p>
     </div>
 
     <div class="col-md-6">
       <div class="page-header">
-        <h3>nanominer <small>mainnet only</small> </h3>
+        <h3>nanominer <small>sadece mainnet</small> </h3>
       </div>
-      <p class="lead">In order to mine etchash you need   
+      <p class="lead">ETC kazmak için ihtiyacınız olan   
         <a href="https://github.com/nanopool/nanominer/releases" rel="nofollow" target="_blank">nanominer</a> v1.12.0+
       </p>
-      <h4>example config</h4>
+      <h4>Örnek konfigürasyon</h4>
       <pre>
-; Address to send funds to. Change this address to yours!
-wallet = 0xd92fa5a9732a0aec36dc8d5a6a1305dc2d3e09e6
+; Ödemenin gönderileceği adres. Kendi cüzdanınızla değiştirin!
+wallet = 0x841Dc834eC4c8925b37d4eFaDCCeFca25582BD8a
 
 ; Coin to mine.
 coin = ETC
@@ -49,11 +49,15 @@ pool1={{config.StratumHost}}:{{config.StratumPort}}
   <div class="col-md-12">
     <div class="col-md-6">
       <p class="text-justify">
-        <h4>Advice</h4>
-        <p>CPU mining is not recommended.</p>
-        <h4>Terms of Service</h4>
-        <p>By using the pool you accept all possible risks related to experimental software usage.<br/>
-           Pool owner can't compensate any irreversible losses, but will do his best to prevent worst case.
+        <h4>Tavsiyeler</h4>
+        <p>Yukarıda belirtilenlerden farklı madencilik yazılımları da kullanabilirsiniz.</p>
+        <p>Teamredminer,Gminer,NBMiner ve PhoenixMiner bunlardan birkaçıdır.</p>
+        <p>HiveOS kullananlar havuzumuzu direk listeden seçip bağlantı kurabilirler.</p>
+        <p>Uyumlu olan miner yazılımları hiveos listesinin en başında listelenmiştir.</p>
+        <p>lolminer github bağlantısı false tehlikeli olarak işaretlenmiştir.</p>
+        <h4>Kullanım Şartları</h4>
+        <p>Madencilik ve kripto sektörü oldukça riskli bir sektördür ve olası kayıplar söz konusudur.<br/>
+           Havuz sahibi yada yöneticiler geri döndürülemez kayıplardan sorumlu tutulamazlar.
         </p>
       </p>
     </div>
