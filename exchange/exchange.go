@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"log"
 
-	"github.com/yuriy0803/open-etc-pool-friends/util"
-	"github.com/yuriy0803/open-etc-pool-friends/storage"
+	"github.com/ahonder/etc-pool/util"
+	"github.com/ahonder/etc-pool/storage"
 	"io/ioutil"
 
 )
