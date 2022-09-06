@@ -1,8 +1,8 @@
 package payouts
 
 import (
-	"github.com/yuriy0803/open-etc-pool-friends/rpc"
-	"github.com/yuriy0803/open-etc-pool-friends/storage"
+	"github.com/ahonder/etc-pool/rpc"
+	"github.com/ahonder/etc-pool/storage"
 	"math/big"
 	"os"
 	"testing"
