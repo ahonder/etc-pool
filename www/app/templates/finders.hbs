@@ -1,16 +1,16 @@
 <div class="jumbotron">
   <div class="container">
-    <strong>Miners on the list:</strong> <span class="label label-info">{{model.findersTotal}}</span>
+    <strong>Blok Bulan Madenciler:</strong> <span class="label label-info">{{model.findersTotal}}</span>
   </div>
 </div>
 <div class="container">
   {{#if model.finders}}
-  <h4>Block finders</h4>
+  <h4>Blok Bulanlar</h4>
   <table class="table table-condensed table-striped">
     <thead>
       <tr>
-        <th>Miner</th>
-        <th>Blocks</th>
+        <th>Madenci</th>
+        <th>Bloklar</th>
       </tr>
     </thead>
     <tbody>
@@ -23,6 +23,6 @@
     </tbody>
   </table>
   {{else}}
-  <h3>No blocks yet</h3>
+  <h3>Henüz Blok Yok</h3>
   {{/if}}
 </div>
