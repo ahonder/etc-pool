@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/yuriy0803/open-etc-pool-friends/rpc"
-	"github.com/yuriy0803/open-etc-pool-friends/util"
+	"github.com/ahonder/etc-pool/rpc"
+	"github.com/ahonder/etc-pool/util"
 )
 
 // Allow only lowercase hexadecimal with 0x prefix
