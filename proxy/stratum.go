@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/yuriy0803/open-etc-pool-friends/util"
+	"github.com/ahonder/etc-pool/util"
 )
 
 const (
