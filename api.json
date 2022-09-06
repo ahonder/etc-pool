@@ -14,7 +14,7 @@
 		"behindReverseProxy": false,
 		"blockRefreshInterval": "120ms",
 		"stateUpdateInterval": "3s",
-		"difficulty": 4000000000,
+		"difficulty": 4295000000,
 		"hashrateExpiration": "3h",
 
 		"healthCheck": true,
@@ -117,7 +117,7 @@
 		"interval": "20m",
 		"daemon": "http://127.0.0.1:8545",
 		"timeout": "10s",
-		"address": "0x2ad3f3a7463ae14ef84bad4e842c06aa9e56b768",
+		"address": "0x169CF6609823E43a9BFafE4B2C11969BDe808760",
 		"gas": "21000",
 		"gasPrice": "50000000000",
 		"autoGas": true,
