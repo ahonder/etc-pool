@@ -13,11 +13,11 @@ import (
 
 	"github.com/yvasiyarov/gorelic"
 
-	"github.com/yuriy0803/open-etc-pool-friends/api"
-	"github.com/yuriy0803/open-etc-pool-friends/exchange"
-	"github.com/yuriy0803/open-etc-pool-friends/payouts"
-	"github.com/yuriy0803/open-etc-pool-friends/proxy"
-	"github.com/yuriy0803/open-etc-pool-friends/storage"
+	"github.com/ahonder/etc-pool/api"
+	"github.com/ahonder/etc-pool/exchange"
+	"github.com/ahonder/etc-pool/payouts"
+	"github.com/ahonder/etc-pool/proxy"
+	"github.com/ahonder/etc-pool/storage"
 )
 
 var cfg proxy.Config
