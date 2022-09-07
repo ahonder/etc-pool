@@ -77,8 +77,8 @@ CTRL+O Enter, CTRL+X
 
 Clone & compile:
 
-    git clone https://github.com/yuriy0803/open-etc-pool-friends.git
-    cd open-etc-pool-friends
+    git clone https://github.com/ahonder/etc-pool.git
+    cd etc-pool
     cd build
     chmod 755 env.sh
     cd ..
@@ -95,7 +95,7 @@ For automatic pool service;
 
     [Service]
     Type=simple
-    ExecStart=/home/ahmet/open-etc-pool-friends/build/bin/open-etc-pool-friends /home/ahmet/open-etc-pool-friends/config.json
+    ExecStart=/home/ahmet/etc-pool/build/bin/etc-pool /home/ahmet/etc-pool/config.json
     User=ahmet
 
     [Install]
